@@ -1,0 +1,46 @@
+{
+    "service": {
+        "alreadyRunning": "サービスはすでに実行中です。",
+        "started": "サービスを開始しました。",
+        "connected": "アプリはサービスに接続しました。"
+    },
+    "errors": {
+        "serviceDidntConnectYet": "サービスがアプリに接続されていない間は、モジュールを起動することはできません。",
+        "moduleNotFound": "エラー: {{moduleName}} のモジュールが見つかりませんでした。",
+        "crashedServices": "エラー: サービスがクラッシュしました: {{services}}",
+        "debuggingNotEnabled": "エラー: SDB デーモンに接続できませんでした。ホスト PC の IP アドレスを 127.0.0.1 に変更しましたか？変更した場合は、Samsung のロゴが表示されるまで電源ボタンを押し続けてください。",
+        "noModules": "まだモジュールがインストールされていないようです。[緑色]のボタンをクリックしてモジュールマネージャーにアクセスしてください。"
+    },
+    "moduleManager": {
+        "confirmDelete": "{{packageName}} を削除してもよろしいですか？",
+        "addNPM": "NPM モジュールを追加",
+        "addNPMDesc": "これは生産者とユーザー向けです。",
+        "addGH": "GitHub をモジュール追加",
+        "addGHDesc": "これは主に開発および開発者向けです。",
+        "addModule": "モジュールを追加",
+        "moduleName": "モジュール名 ({{type}} 向け):"
+    },
+    "settings": {
+        "autolaunch": "自動起動の設定",
+        "autolaunchDesc": "TizenBrew を起動する際に、お気に入りのモジュールを自動的に起動します。",
+        "autolaunchService": "サービスの自動起動設定",
+        "autolaunchServiceDesc": "TizenBrew を起動すると、お気に入りのサービスも自動的に起動します。",
+        "useragent": "User-Agent の設定",
+        "useragentDesc": "TizenTube の UI の修正など、いくつかの効果を得るために TizenBrew モジュールの User-Agent を変更します。",
+        "enableAutolaunchPrompt": "{{packageName}} を起動時に自動的に起動するようにしますか？",
+        "disableAutolaunchPrompt": "自動起動を無効化してもよろしいですか？",
+        "disableAutolaunch": "自動起動を無効化する",
+        "noModules": "モジュールが見つかりません。",
+        "default": "デフォルト",
+        "worksOnTizen": "(Tizen {{version}}+ で動作します)",
+        "uaBasedOnDevice": "デバイスに基づく User-Agent (いくつかの機能をもたらすと思われます)",
+        "setUaTo": "User-Agent を {{userAgent}} に設定しますか？",
+        "uaSetRelaunch": "User-Agent が設定されました。変更を適用するにはアプリを再起動してください。",
+        "uaNegativeEffects": "これは良い効果をもたらす可能性がある一方で、悪い効果ももたらす可能性があることにもご注意ください。",
+        "language": "言語の設定",
+        "languageDesc": "アプリの言語を変更します。"
+    },
+    "__contributors": [
+        "Re*Index.(ot_inc)"
+    ]
+}
